@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 
 
 app.get('/hello', function (req, res) {
-    var person={firstName:'Ravi',lastName:'Tambade',age:47};
+    var person={firstName:'Rohit',lastName:'Shinde',age:47};
     res.send(person);
 });
 
